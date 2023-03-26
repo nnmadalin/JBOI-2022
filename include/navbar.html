@@ -1,0 +1,53 @@
+<a href="../../"><img src="../../image/logo-concurs.png"class = "logo"></a>
+  <button class="w3-button w3-teal w3-xlarge w3-right w3-hide-large" onclick="openNav()" style="margin-top:-5px;display: block!important; font-size: 30px!important;color: rgb(252, 222, 222); background-color: transparent!important; margin-right: 10px;">&#9776;</button>                  
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:block;right:0; z-index: 100; font-size: 16px; width: 0px;" id="rightMenu">
+      <button onclick="closeNav()" class="w3-bar-item w3-button w3-large" style="text-align:center; font-weight: bold;">Close &times;</button>
+      <a href="../../" class="w3-bar-item w3-button">Home</a>
+      <a href="../../news" class="w3-bar-item w3-button">News</a>
+      <a href="../../schedule" class="w3-bar-item w3-button">Schedule</a>
+      <a href="../../participants" class="w3-bar-item w3-button">Participants</a>
+      <a href="../../register"class="w3-bar-item w3-button">Register</a>
+      <div class="w3-dropdown-hover"> 
+        <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+          Competition <i class="fa fa-caret-down"></i>
+          </button>
+          <div id="demoAcc" class="w3-hide w3-white w3-card" style="background-color: rgb(187, 187, 187); ">
+            <!--pointer-events: none;-->
+            <a href="../../competition/rules" class="w3-bar-item w3-button">Rules</a>
+            <a href="../../competition/tasks" class="w3-bar-item w3-button">Tasks</a>
+            <a href="../../competition/results" class="w3-bar-item w3-button">Results</a>
+          </div>
+      </div>
+      <a href="../../organisers" class="w3-bar-item w3-button">Organisers</a>
+      <a href="../../sponsors" class="w3-bar-item w3-button">Sponsors</a>
+      <a href="../../conference" class="w3-bar-item w3-button">Conference</a>
+      <a href="../../contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+
+
+    <div class="cookie">
+      <img src="../../image/cookie.png" alt="">
+      <div class="content_cookie">
+        <header>Cookies Consent</header>
+        <p>This website use cookies to ensure you get the best experience on our website.</p>
+        <div class="buttons">
+          <button class="item">I understand</button>
+          <a href="https://www.cloudflare.com/learning/privacy/what-are-cookies/" class="item">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const cookieBox = document.querySelector(".cookie"),
+      acceptBtn = cookieBox.querySelector("button");
+      acceptBtn.onclick = ()=>{
+        document.cookie = "Cookie=Yes; max-age="+60*60*24*30*20;
+        if(document.cookie){ 
+          cookieBox.classList.add("hide");
+        }else{
+          alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+        }
+      }
+      let checkCookie = document.cookie.indexOf("Cookie=Yes");
+      checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+    </script>  

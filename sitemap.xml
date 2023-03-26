@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/about</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/news</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/schedule</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/participants</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/register</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/competition/rules</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/competition/tasks</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/competition/results</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/organisers</loc>
+  </sitemap>
+  <sitemap>
+       <loc>http://jboi2022.lrmd.ro/contact</loc>
+  </sitemap>
+</sitemapindex>

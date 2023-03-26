@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+
+        <meta name="description" content="JBOI 2022 - Sponsors">
+        <meta name="keywords" content="Junior Balkan Olympiad in Informatics, JBOI, jboi, Regina Maria Dorohoi, Regina Maria, jboi, jboi2022, JBOI2022, jboi-2022, olimpiada, Dorohoi, concurs, Balka, balcaniada, juniori, junior, boi, regina dorohoi, jboi dorohoi, olimpiada dorohoi, dorohoi">
+        <meta name = "author" content = "Neauna Madalin">
+        <link rel="icon" href="../../image/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+        <script src="../../js/script.js"></script>
+        
+        <link rel="stylesheet" href="../../style/navbar.css">
+        <link rel="stylesheet" href="../../style/sponsors.css">
+        <link rel="stylesheet" href="../../style/carusel.css">
+        <title>JBOI - 2022</title>
+        <script> 
+            $(function(){
+            $("#navbar").load("../../include/navbar.html"); 
+            });
+        </script> 
+    </head>
+    <body>
+        <div class = "navbar" id = "navbar"></div>
+
+        <div class="contain">
+            <h1 style = "text-align: left; margin-bottom: 50px; color: black; font-size: 50px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Sponsors</h1>
+            
+            <div class="customer-logos" style = "background-color: #ededed!important;">
+                <div class="slide" onClick="window.open('https://www.bitdefender.ro','_blank');"><img src="/image/sponsori/bitdefender.png"></div>
+                <div class="slide" onClick="window.open('https://www.francu.org','_blank');"><img src="/image/sponsori/francu.png"></div>
+                <div class="slide" onClick="window.open('https://europeandrinks.ro/portfolio-item/izvorul-minunilor/','_blank');"><img src="/image/sponsori/izvor.png"></div>
+                <div class="slide" onClick="window.open('https://chrome.ro/','_blank');"><img src="/image/sponsori/chrome.png"></div>
+                <div class="slide" onClick="window.open('https://www.ecdl.ro/','_blank');"><img src="/image/sponsori/ecdl.png"></div>
+                <div class="slide" onClick="window.open('https://www.intuitext.ro/','_blank');"><img src="/image/sponsori/intuitext.png"></div>
+                <div class="slide" onClick="window.open('https://www.symmetrica.ro/','_blank');"><img src="/image/sponsori/symmetrica.png"></div>
+            </div>
+            <script>
+            $(document).ready(function(){
+                $('.customer-logos').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                    slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                    slidesToShow: 2
+                    }
+                }]
+                });
+            });
+            </script>
+        
+    </body>
+</html>

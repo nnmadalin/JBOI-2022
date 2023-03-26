@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    scroll-snap-type: x mandatory;
+}
+body{
+    background-color: #ededed;
+}
+.contain{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contain h1{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 60px!important;
+    color:black;
+    font-weight: 0;
+    white-space: wrap;
+    color:cornflowerblue;
+}
+.man{
+    margin-top: 100px;
+    width: 100%;
+    float:left;
+}
+.compus{
+    margin-left: 35px;
+}
+@media only screen and (max-width: 950px) {
+    .contain{
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+.slider {
+    background: transparent;
+    height: 100px;
+    overflow: clip;
+    position: relative;
+    width: 100%;
+}
+.slider::before, .slider::after {
+    background: transparent;
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    -webkit-animation: scroll 20s linear infinite;
+            animation: scroll 20s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+.customer-logos div{
+    cursor: pointer;
+}
+.slick-slide img{
+    height: 80px!important;
+}
+li{
+    line-height: 30px;
+}
+.content{
+    width: auto;
+}
+@media only screen and (max-width: 1250px) {
+    .slick-slide img{
+        height: 50px!important;
+    }
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.active, .collapsible:hover {
+    background-color: #555;
+}
+  
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+    background-color: #f1f1f1;
+}
+h6{
+    font-weight: bold;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ededed;
+    border-color: black;
+    padding: 11px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+}
+#btn-back-to-top:hover{
+    background-color: #dad8d8;
+}
