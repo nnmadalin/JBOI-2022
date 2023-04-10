@@ -1,6 +1,6 @@
 # JBOI 2022
 
->  **Official website: [jboi2022.lrmd.ro](https://jboi2022.lrmd.ro "jboi2022.lrmd.ro")**
+>  **Official website: <a href = "https://jboi2022.lrmd.ro" target="_blank">jboi2022.lrmd.ro</a>**
 
 - Technologies used: html, css, javascript, php
 
